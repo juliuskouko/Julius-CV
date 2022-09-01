@@ -95,48 +95,22 @@ body{
     padding-top: 2rem;
 }
 .skills-section ul li{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    /* display: grid;
+    grid-template-columns: repeat(2, 1fr); */
     padding: .4rem 0;
 }
 
-.progress-bar{
-    width: 100%;
-    height: .4rem;
-    background-color: #2f81ed5b;
-    position: relative;
-    border-radius: 12px;
+.skills-sec ol li{
+    list-style:circle;
+    margin-left: 1.8rem;
+    color: #718096;
 }
-.progress{
-    height: 100%;
-    position: absolute;
-    left: 0;
-    background-color: #2D9CDB;
-    border-radius: 12px;
-}
-.js-progress{
-    width: 60%;
-}
-.ps-progress{
-    width: 70%;
-}
-.j-progress{
-    width: 80%;
-}
-.c-progress{
-    width: 80%;
-}
-.n-progress{
-    width: 80%;
-}
-.w-progress{
-    width: 75%;
-}
+
 
 
 .skill-title{
     text-transform: uppercase;
-    color: #f7f7f7;
+    color: #f8f9fa;
     font-size: 0.8rem;
 }
 
@@ -148,12 +122,12 @@ body{
 }
 
 .sub-para{
-    color: #ccc;
+    color: #718096;
     padding: .4rem 0;
 }
 
 .references-section li{
-    color: #ccc;
+    color: #718096;
     padding: .2rem 0;
 }
 .references-section li i{
